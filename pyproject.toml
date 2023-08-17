@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "lido-test-task"
+version = "0.1.0"
+description = ""
+authors = ["Mikhail Gurevich <mikhail.gurevich@proton.me>"]
+readme = "README.md"
+packages = [{include = "lido_test_task"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyterlab = "^4.0.4"
+pandas = "^2.0.3"
+tqdm = "^4.66.1"
+matplotlib = "^3.7.2"
+requests = "^2.31.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

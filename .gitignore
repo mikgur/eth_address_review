@@ -1,0 +1,4 @@
+.DS_Store
+.python-version
+.ipynb_checkpoints/
+src/__pycache__/
